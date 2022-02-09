@@ -16,4 +16,5 @@ You can find sample input and output files for reference.
   At the end of the source code, there is one line that calls a function named A_Star_Search.
   It takes two arguments. The first argument is the filename and the second argument tells the   program whether DEBUG_MODE should be enabled. If DEBUG_MODE is enabled, the program will   additonally output the G, H, and F values for every node on the solution path, along wih its
   state. To output the correct format, please set DEBUG_MODE to False.
+  
   Ex. A_Star_Search("Input1.txt", False)
